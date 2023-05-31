@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from aruco_interface/srv/ArucoCommand.srv
+// generated code does not contain a copyright notice
+
+
+module aruco_interface {
+  module srv {
+    struct ArucoCommand_Request {
+      string command;
+    };
+    struct ArucoCommand_Response {
+      int32 ar0x;
+
+      int32 ar0y;
+
+      int32 ar1x;
+
+      int32 ar1y;
+
+      int32 ar2x;
+
+      int32 ar2y;
+
+      int32 ar3x;
+
+      int32 ar3y;
+    };
+  };
+};

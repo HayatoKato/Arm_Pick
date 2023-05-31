@@ -1,0 +1,6 @@
+source;share/detection_frcnn/hook/pythonpath.ps1
+source;share/detection_frcnn/hook/pythonpath.dsv
+source;share/detection_frcnn/hook/pythonpath.sh
+source;share/detection_frcnn/hook/ament_prefix_path.ps1
+source;share/detection_frcnn/hook/ament_prefix_path.dsv
+source;share/detection_frcnn/hook/ament_prefix_path.sh

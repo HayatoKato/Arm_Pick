@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from aruco_interface/srv/ArmCommand.srv
+// generated code does not contain a copyright notice
+
+
+module aruco_interface {
+  module srv {
+    struct ArmCommand_Request {
+      float colax;
+
+      float colay;
+    };
+    struct ArmCommand_Response {
+      boolean catchcola;
+    };
+  };
+};

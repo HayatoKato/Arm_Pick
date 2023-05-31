@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from aruco_interface/srv/ColaCommand.srv
+// generated code does not contain a copyright notice
+
+
+module aruco_interface {
+  module srv {
+    struct ColaCommand_Request {
+      string command;
+    };
+    struct ColaCommand_Response {
+      int32 xmin;
+
+      int32 ymin;
+
+      int32 xmax;
+
+      int32 ymax;
+    };
+  };
+};

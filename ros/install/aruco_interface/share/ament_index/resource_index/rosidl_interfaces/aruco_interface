@@ -1,0 +1,16 @@
+srv/ArmCommand.idl
+srv/ArmCommand.srv
+srv/ArmCommand_Request.msg
+srv/ArmCommand_Response.msg
+srv/ArucoCommand.idl
+srv/ArucoCommand.srv
+srv/ArucoCommand_Request.msg
+srv/ArucoCommand_Response.msg
+srv/AxisCommand.idl
+srv/AxisCommand.srv
+srv/AxisCommand_Request.msg
+srv/AxisCommand_Response.msg
+srv/ColaCommand.idl
+srv/ColaCommand.srv
+srv/ColaCommand_Request.msg
+srv/ColaCommand_Response.msg
