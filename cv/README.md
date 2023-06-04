@@ -2,7 +2,7 @@
 
 ## ArucoGenerate.py
 ArUcoマーカー画像の生成  
-![ArUco生成マーカー](https://github.com/HayatoKato/arm-pick-cola/blob/main/cv/ArUco/ArucoMarker.pdf)
+![ArUco生成マーカー](https://github.com/HayatoKato/arm-pick-cola/blob/main/cv/ArUco/ArucoMarker.png)
 
 ## CheckAnnotation.py
 アノテーションの確認  
