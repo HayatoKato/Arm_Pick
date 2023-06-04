@@ -11,7 +11,7 @@ import rclpy
 from rclpy.node import Node
 from cv_bridge import CvBridge
 from sensor_msgs.msg import Image
-from aruco_interface.srv import ColaCommand
+from catch_cola_interface.srv import ColaCommand
 from rclpy.qos import qos_profile_sensor_data
 from ament_index_python.packages import get_package_prefix
 
@@ -26,7 +26,7 @@ path_workspace = workspace / "src" / package
 
 class DetectionFrcnn(Node):
     def __init__(self):
-        super().__init__("detection_frcnn_node")
+        super().__init__("detection_cola_node")
 
         # カメラ画像サブスクライバー
         self.subscription = self.create_subscription(
@@ -175,12 +175,12 @@ class DetectionFrcnn(Node):
 
 def main():
     rclpy.init()
-    detection_frcnn_node = DetectionFrcnn()
+    detection_cola_node = DetectionFrcnn()
     try:
-        rclpy.spin(detection_frcnn_node)
+        rclpy.spin(detection_cola_node)
     except KeyboardInterrupt:
-        detection_frcnn_node.write_gif()
+        detection_cola_node.write_gif()
     else:
-        detection_frcnn_node.write_gif()
+        detection_cola_node.write_gif()
     rclpy.shutdown()
 

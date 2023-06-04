@@ -2,7 +2,7 @@ import re
 import cv2
 import glob
 
-files = glob.glob("imgs/*")
+files = glob.glob("imgs/lx*")
 files = sorted(files)
 for file in files:
 

@@ -5,7 +5,7 @@ import smach
 import rclpy
 
 from rclpy.node import Node
-from aruco_interface.srv import ArucoCommand, ColaCommand, AxisCommand, ArmCommand
+from catch_cola_interface.srv import ArucoCommand, ColaCommand, AxisCommand, ArmCommand
 
 # ArUco間距離情報
 ar_width = 29.0  # [cm]

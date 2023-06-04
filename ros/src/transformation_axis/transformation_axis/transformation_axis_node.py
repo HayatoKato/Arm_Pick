@@ -6,7 +6,7 @@ from rclpy.node import Node
 from cv_bridge import CvBridge
 from sensor_msgs.msg import Image
 from rclpy.qos import qos_profile_sensor_data
-from aruco_interface.srv import AxisCommand
+from catch_cola_interface.srv import AxisCommand
 
 # Cola情報
 cola_radius = 2.5  # [cm]

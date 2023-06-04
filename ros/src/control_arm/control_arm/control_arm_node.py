@@ -4,7 +4,7 @@ import threading
 import rclpy
 from rclpy.node import Node
 from rclpy.duration import Duration
-from aruco_interface.srv import ArmCommand
+from catch_cola_interface.srv import ArmCommand
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 
 

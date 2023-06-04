@@ -5,7 +5,7 @@ from rclpy.node import Node
 from cv_bridge import CvBridge
 from sensor_msgs.msg import Image
 from rclpy.qos import qos_profile_sensor_data
-from aruco_interface.srv import ArucoCommand
+from catch_cola_interface.srv import ArucoCommand
 
 
 class DetectionArUco(Node):

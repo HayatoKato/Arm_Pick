@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(aruco_interface)
+project(catch_cola_interface)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)

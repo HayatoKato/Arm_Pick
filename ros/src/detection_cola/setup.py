@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'detection_frcnn'
+package_name = 'detection_cola'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'detection_frcnn_node = detection_frcnn.detection_frcnn_node:main',
+            'detection_cola_node = detection_cola.detection_cola_node:main',
         ],
     },
 )
